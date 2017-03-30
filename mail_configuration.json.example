@@ -1,0 +1,12 @@
+{
+  "smtp_data": {
+    "isSMTP": true,
+    "isHTML": true,
+    "Host": "smtp.mailsender.org",
+    "SMTPAuth": true,
+    "Username": "mail@domain.com",
+    "Password": "password",
+    "SMTPSecure": "ssl",
+    "Port": 465
+  }
+}
