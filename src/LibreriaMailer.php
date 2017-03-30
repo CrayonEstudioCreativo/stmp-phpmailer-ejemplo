@@ -1,6 +1,6 @@
 <?php
 // Cargamos el autoloader de PHPMailer.
-include_once __DIR__ . '/../PHPMailer/PHPMailerAutoload.php';
+include_once dirname(__FILE__) . '/../PHPMailer/PHPMailerAutoload.php';
 
 /**
  * Class LibreriaMailer

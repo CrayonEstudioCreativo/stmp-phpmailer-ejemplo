@@ -1,8 +1,8 @@
 <?php
-include_once __DIR__ . '/src/LibreriaMailer.php';
+include_once dirname(__FILE__) . '/src/LibreriaMailer.php';
 
 if ($_POST) {
-    $mailer = new LibreriaMailer(__DIR__ . "/mail_configuration.json");
+    $mailer = new LibreriaMailer(dirname(__FILE__) . "/mail_configuration.json");
 }
 ?>
 
